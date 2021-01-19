@@ -2,11 +2,11 @@
 namespace SOLID_Labb {
 
 public interface IAnimal {
-    string Color { get; set; }
-    
-    void Eat();
-    void Sleep();
-    void Speak();
+	string Color { get; set; }
+	
+	void Eat();
+	void Sleep();
+	void Speak();
 }
 
 public interface IOwnedAnimal : IAnimal {

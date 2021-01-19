@@ -5,17 +5,17 @@ namespace SOLID_Labb {
 struct Bird : IAnimal {
 	public string Color { get; set; }
 
-    public Bird(string color) => Color = color;
+	public Bird(string color) => Color = color;
 
-    public void Eat() {
-        Console.WriteLine("Bird is peck-peck-pecking away!");
-    }
-    public void Sleep() {
-        Console.WriteLine("Bird is sleeping!");
-    }
-    public void Speak() {
-        Console.WriteLine("Bird is chirping!");
-    }
+	public void Eat() {
+		Console.WriteLine("Bird is peck-peck-pecking away!");
+	}
+	public void Sleep() {
+		Console.WriteLine("Bird is sleeping!");
+	}
+	public void Speak() {
+		Console.WriteLine("Bird is chirping!");
+	}
 }
 
 class Dog : IOwnedAnimal {
