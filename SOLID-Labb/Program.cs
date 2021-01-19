@@ -9,9 +9,7 @@ class ConsoleUtilities {
 }
 
 class Program {
-    /*
-        Inte mitt fel att det inte går att ge ett bra namn på det här kodstycket...
-    */
+    // Inte mitt fel att det inte går att ge ett bra namn på det här kodstycket...
     static void OperateOnAnimal<T>(T animal) where T: IAnimal {
         // Skulle kunna ändras till:
         // if (animal is IOwnedAnimal owned_animal)
